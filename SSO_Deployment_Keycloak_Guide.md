@@ -54,6 +54,7 @@ composer --version
 - Navigate to the unzipped folder and run:
   ```bash
   cp composer.json loginView.php logout.php oidc_login.php .env /var/www/html/Decoify/
+  cp env.php /var/www/html/Decoify/config/
   cp -r vendor/ /var/www/html/Decoify/
   cp main-sidebar.php /var/www/html/Decoify/template/
   ```
